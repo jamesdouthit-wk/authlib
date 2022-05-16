@@ -7,7 +7,7 @@ clean: clean-build clean-pyc clean-docs clean-tox
 
 tests:
 	@TOXENV=py,flask,django,coverage tox
-	add this as a test
+	ok add this as a test
 
 clean-build:
 	@rm -fr build/
